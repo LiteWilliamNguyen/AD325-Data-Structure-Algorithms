@@ -38,7 +38,7 @@ class TestSelectionSort(unittest.TestCase):
         self.assertEqual(selection_sort([]), [])
     #An array with one element (edge cases).    
     def test_single_element(self):
-        self.assertEqual(selection_sort([42]), [42])
+        self.assertEqual(selection_sort([2]), [2])
 
 # Run the tests
 if __name__ == '__main__':
